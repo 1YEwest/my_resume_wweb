@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме — Алмазбеков Эмир</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- Левая панель -->
+        <aside class="sidebar">
+            <div class="profile-section">
+                <img src="https://avatars.githubusercontent.com/1YEwest" alt="Фото профиля" class="avatar">
+                <h1 class="name">Алмазбеков Эмир</h1>
+                <p class="title">Студент-программист</p>
+            </div>
+
+            <nav class="nav">
+                <a href="#about" class="nav-link active">
+                    <span class="nav-icon">◈</span> О себе
+                </a>
+                <a href="#skills" class="nav-link">
+                    <span class="nav-icon">⚡</span> Навыки
+                </a>
+                <a href="#projects" class="nav-link">
+                    <span class="nav-icon">◆</span> Проекты
+                </a>
+                <a href="#interests" class="nav-link">
+                    <span class="nav-icon">✦</span> Интересы
+                </a>
+            </nav>
+
+            <div class="contacts">
+                <h3>Контакты</h3>
+                <div class="contact-item">
+                    <span class="contact-icon">✉</span>
+                    <a href="mailto:ucifer523@gmail.com">ucifer523@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">☎</span>
+                    +996 600 69 01 01
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">⌘</span>
+                    <a href="https://github.com/1YEwest" target="_blank" rel="noopener noreferrer">github.com/1YEwest</a>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">⊕</span>
+                    Бишкек, Кыргызстан
+                </div>
+            </div>
+        </aside>
+
+        <!-- Основной контент -->
+        <main class="content">
+            
+            <!-- О себе -->
+            <section id="about" class="section">
+                <div class="section-header">
+                    <h2>О себе</h2>
+                    <div class="line"></div>
+                </div>
+                <p class="about-text">
+                    Студент-программист. Владею языками <span class="highlight">Java</span>, 
+                    <span class="highlight">Python</span>, <span class="highlight">C++</span>.
+                    Интересуюсь низкоуровневыми языками программирования, геймдевом,
+                    в особенности игровыми движками и графическими технологиями.
+                </p>
+            </section>
+
+            <!-- Навыки -->
+            <section id="skills" class="section">
+                <div class="section-header">
+                    <h2>Технические навыки</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">☕</div>
+                        <h4>Java</h4>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🐍</div>
+                        <h4>Python</h4>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">⚙</div>
+                        <h4>C++</h4>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">⚡</div>
+                        <h4>Низкоуровневое<br>программирование</h4>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🎨</div>
+                        <h4>Графические<br>технологии</h4>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🛠</div>
+                        <h4>Git, VS Code</h4>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Проекты -->
+            <section id="projects" class="section">
+                <div class="section-header">
+                    <h2>Проекты</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="projects-list">
+                    <div class="project-card">
+                        <div class="project-number">01</div>
+                        <div class="project-info">
+                            <h3>Инжектор DLL файлов</h3>
+                            <p>Программа для инжекции DLL файлов в выбранный процесс. Реализована работа с памятью процессов на низком уровне.</p>
+                            <div class="tags">
+                                <span class="tag">C++</span>
+                                <span class="tag">Windows API</span>
+                                <span class="tag">Low-level</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-number">02</div>
+                        <div class="project-info">
+                            <h3>Трекер руки через веб-камеру</h3>
+                            <p>Приложение для отслеживания руки через веб-камеру с использованием компьютерного зрения.</p>
+                            <div class="tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Computer Vision</span>
+                                <span class="tag">OpenCV</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Интересы -->
+            <section id="interests" class="section">
+                <div class="section-header">
+                    <h2>Интересы</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="interests-grid">
+                    <div class="interest-card">
+                        <div class="interest-icon">⚡</div>
+                        <h4>Низкоуровневое программирование</h4>
+                        <p>Работа с памятью, процессами, системное программирование на C/C++.</p>
+                    </div>
+                    <div class="interest-card">
+                        <div class="interest-icon">🎮</div>
+                        <h4>Геймдев</h4>
+                        <p>Разработка игр, изучение игровых движков (Unreal Engine, Godot Engine).</p>
+                    </div>
+                    <div class="interest-card">
+                        <div class="interest-icon">🖥</div>
+                        <h4>Графические технологии</h4>
+                        <p>Компьютерная графика, рендеринг, шейдеры, обработка изображений.</p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+</body>
+</html>
